@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./static/styles.css">
+    <link rel="stylesheet" type="text/css" href="static/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sassy+Frass&display=swap" rel="stylesheet">
+</head>
+<main>
+    <header>
+        <div id="-header">
+            <div id="-header-search">
+                <label id="-name">0ch</label>
+                <form action="/form/submit" method="POST">
+                    <input class="input-group-text" type="text" placeholder="Enter your question...">
+                </form>
+                <button class="btn btn-lg btn-primary">Search!</button>
+            </div>
+            <div id="-user-authorized">
+                    <img id="-pfp" src="static/ico1.png">
+                    <a id="-username">Dr.Pepper</a>
+                    <a link href="settings">settings</a>
+                    <a link href="logout">log out</a>
+            </div>
+        </div>
+    </header>
+    <div id="-body">
+        <div id="-main">
+            <div id="-main-content">
+                <h2 class="-side-h2">New questions:</h2>
+                <div class="question">
+                    <div class="question-left">
+                        <img class="question-pfp" src="static/ico2.png">
+                        <label class="question-karma">1</label>
+                        <button class="question-plus-karma btn btn-success">↑</button>
+                        <button class="question-minus-karma btn btn-danger">↓</button>
+                    </div>
+                    <div class="question-right">
+                        <a class="question-label">How to get money?</a>
+                        <label class="question-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Integer dictum fringilla nisl quis dignissi...</label>
+                        <a class="question-answer">Answer(3)</a>
+                        <label class="question-tags">Tags:</label>
+                        <a class="tag" size="14">Python</a>
+                        <a class="tag" size="14">Leetcode</a>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-left">
+                        <img class="question-pfp" src="static/ico2.png">
+                        <label class="question-karma">1</label>
+                        <button class="question-plus-karma btn btn-success">↑</button>
+                        <button class="question-minus-karma btn btn-danger">↓</button>
+                    </div>
+                    <div class="question-right">
+                        <a class="question-label">How to get money?</a>
+                        <label class="question-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Integer dictum fringilla nisl quis dignissi...</label>
+                        <a class="question-answer">Answer(3)</a>
+                        <label class="question-tags">Tags:</label>
+                        <a class="tag" size="14">Python</a>
+                        <a class="tag" size="14">Leetcode</a>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-left">
+                        <img class="question-pfp" src="static/ico2.png">
+                        <label class="question-karma">1</label>
+                        <button class="question-plus-karma btn btn-success">↑</button>
+                        <button class="question-minus-karma btn btn-danger">↓</button>
+                    </div>
+                    <div class="question-right">
+                        <a class="question-label">How to get money?</a>
+                        <label class="question-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Integer dictum fringilla nisl quis dignissi...</label>
+                        <a class="question-answer">Answer(3)</a>
+                        <label class="question-tags">Tags:</label>
+                        <a class="tag" size="14">Python</a>
+                        <a class="tag" size="14">Leetcode</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside>
+        <div id="-side-content">
+            <div id="-popular-tags">
+                <h2 class="-side-h2">Popular tags</h2>
+                <label id="-tags">
+                    <a class="tag" size="16">Python</a>
+                    <a class="tag" size="24">JavaScript</a>
+                    <a class="tag" size="32">VK</a>
+                    <a class="tag" size="16">IDE</a>
+                    <a class="tag" size="16">Leetcode</a>
+                </label>
+            </div>
+            <div id="-best-members"><h2 class="-side-h2">Best members</h2>
+                <ol>
+                    <li><a href="users/freeman">freeman</a></li>
+                    <li><a href="users/freeman">freeman</a></li>
+                    <li><a href="users/freeman">freeman</a></li>
+                </ol>
+            </div>
+        </div>
+        </aside>
+    </div>
+</main>
+</html>
