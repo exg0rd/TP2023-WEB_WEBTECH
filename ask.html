@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="static/styles.css" />
+  </head>
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-8 bg-body-tertiary p-2">
+            <div class="card my-2">
+              <div class="card-body">
+                <label class="card-title h2">New question </label><br>
+                  <form method="get">
+                      <div class="form-group">
+                          <label for="postQuestion">Title</label>
+                          <input type="text" class="form-control" placeholder="Enter your question">
+                        </div>
+                        <div class="form-group my-4">
+                            <label for="postText">Question text</label>
+                            <textarea type="text" class="form-control" rows="10" placeholder="Anything, really"></textarea>
+                          </div>
+                          <div class="form-group my-4">
+                            <label for="postTags">Tags</label>
+                            <input type="text" class="form-control" placeholder="Enter related tags">
+                          </div>
+                        <button type="submit" class="btn btn-primary mt-3">Ask question!</button>
+                </form>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div> 
+</body>

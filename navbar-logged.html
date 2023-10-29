@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="static/styles.css" />
+  </head>
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container d-inline align-items-center">
+          <div class="row">
+            <div class="col-md-4 col-lg-3 order-md-0 order-2">
+              <a href="base.html">
+                <img
+                  src="static/logo.png"
+                  class="img-fluid m-3 d-inline-block"
+                  alt=""
+                  style="filter: invert(100%)"
+              />
+              </a>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-10 col-8">
+              <form>
+                <label form="text" class="form-label"></label>
+                <div class="input-group">
+                  <input
+                    type="search"
+                    id="text"
+                    class="form-control"
+                    placeholder="How to exit vim..."
+                  />
+                  <button class="btn btn-primary">Search</button>
+                </div>
+              </form>
+            </div>
+            <div class="p-1 col-md-2 col-sm-2 col-2">
+              <div class="row">
+                <div class="col-3 mx-3">
+                  <div class="dropdown">
+                    <a class="btn dropdown-toggle" data-bs-toggle="dropdown" role="button"><img
+                      src="static/ico2.png"
+                      width="64"
+                      height="64"
+                      class="align-top"
+                      alt=""
+                    />
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu bg-dark text-center">
+                      <li><a href="#" class="text-decoration-none text-white">exg0rd</a></li>
+                      <li><a href="settings.html">Settings</a></li>
+                      <li><a href="#">Log out</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="row d-none d-lg-inline-flex px-4">
+                    <a  href="user" class="d-block text-decoration-none text-white">exg0rd</a>
+                    <a  href="settings.html" class="text-primary">Settings</a>
+                    <a  href="guest.html" class="text-primary">Log out</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+</body>
+

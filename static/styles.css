@@ -33,3 +33,7 @@
 textarea {
   resize: none;
 }
+
+.content {
+  height: 700px;
+}
